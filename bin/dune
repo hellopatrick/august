@@ -1,0 +1,4 @@
+(executable
+ (public_name august)
+ (name main)
+ (libraries august core))

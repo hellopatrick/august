@@ -1,0 +1,10 @@
+(library
+ (name august)
+ (preprocess
+  (pps ppx_deriving.show)))
+
+(ocamllex
+ (modules lexer))
+
+(menhir
+ (modules parser))
